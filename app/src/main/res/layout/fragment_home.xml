@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:id="@+id/home"
+    android:layout_height="match_parent"
+    tools:context=".homeFragment">
+
+
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="439dp"
+            android:layout_height="276dp">
+            <ImageView android:id="@+id/imageView4"
+                android:layout_width="2143dp"
+                android:layout_height="369dp"
+                android:src="@drawable/background"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0"/>
+            <ImageView android:id="@+id/imageView5"
+                android:layout_width="144dp"
+                android:layout_height="150dp"
+                android:src="@drawable/images"
+                app:layout_constraintBottom_toBottomOf="@+id/imageView4"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.084"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/imageView4"
+                app:layout_constraintVertical_bias="0.205"/>
+            <TextView android:id="@+id/textView3" android:layout_width="233dp" android:layout_height="73dp" android:text="University of the West " android:textAlignment="center" android:textColor="#FFFFFF" android:textSize="30sp" android:textStyle="bold" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.82" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_bias="0.3"/>
+            <TextView android:id="@+id/textView2" android:layout_width="264dp" android:layout_height="70dp" android:text="of England Bristol" android:textAlignment="center" android:textColor="#FFFFFF" android:textSize="25sp" android:textStyle="bold" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.908" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_bias="0.718"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <TextView android:id="@+id/textView6" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Getting to and from UWE Bristol campuses" android:textAlignment="center" android:textColor="#F44336" android:textSize="34sp" android:textStyle="bold"/>
+        <TextView android:id="@+id/textView7" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Bristol Temple Meads, Bristol Parkway and Filton Abbey Wood railway stations connect you to the rest of the country, as well as local and inter-city services. The nearest train station to UWE Bristol's Frenchay Campus is Filton Abbey Wood. It takes around 30 minutes to walk to campus from the station. There is also a First Bus service that leaves from the station car park. Bristol Parkway is also close to Frenchay Campus. There are buses direct to Frenchay Campus or nearby with a short walk. Bristol Temple Meads is closest to the city centre." android:textSize="16sp" android:textStyle="normal"/>
+        <ImageView android:id="@+id/imageView6" android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@drawable/bristol"/>
+    </LinearLayout>
+
+</FrameLayout>
